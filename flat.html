@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>flat · 내부 핵이 없는 표현 | 다시 쓰는 한국어 UD 주석 지침</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="mast"><nav class="shell" aria-label="주 메뉴">
+<a class="brand" href="index.html">다시 쓰는 한국어 UD 주석 지침</a>
+<div class="nav-links"><a href="index.html#relations">관계 색인</a><a href="examples.txt">예문 텍스트</a><a href="index.html#sources">논문 출처</a></div>
+</nav></header>
+<main class="reading" id="main">
+
+<a class="breadcrumb" href="index.html#relations">← 의존 관계 색인</a>
+<h1 class="relation-title"><code>flat</code><span>내부 핵이 없는 표현</span></h1>
+<p class="english" lang="en">flat expression</p>
+<p class="definition">내부에서 대표 핵을 판별하기 어려운 표현에서 첫 요소를 편의상 핵으로 삼아 후속 요소를 연결한다.</p>
+<div class="note"><h2>한국어 적용</h2><p>서샛별 외는 띄어 쓴 인명, 일부 호칭, 접속 표현 없이 나열된 명사류, 날짜·시간 등에 적용한다(114–115쪽). Noh 외가 인용한 GKT에서는 보조 용언에도 <code>flat</code>이 쓰였다(110쪽).</p></div><p class="related">하위 표지 <a class="tag" href="flat-foreign.html"><code>flat:foreign</code></a> <a class="tag" href="flat-name.html"><code>flat:name</code></a></p>
+<section class="section" aria-labelledby="examples"><h2 id="examples">한국어 예문</h2>
+<div class="example-group"><h3>서샛별 외 2019<small>한국어 적용 제안 및 도입 예시</small></h3><ul class="example-list"><li class="example">
+<p class="sentence">1 만 2 천 3 백은</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>만</span><span class="arrow">→</span><span>천</span></li><li class="edge"><code>flat</code><span>만</span><span class="arrow">→</span><span>백은</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 112쪽 (55다)</p><p class="metadata">원문의 UD 분석형이다.</p>
+</li><li class="example">
+<p class="sentence">해리 포터가 왔다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>해리</span><span class="arrow">→</span><span>포터가</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 114쪽 (64)</p>
+</li><li class="example">
+<p class="sentence">문재인 대통령께서</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>문재인</span><span class="arrow">→</span><span>대통령께서</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 114쪽 (66가)</p>
+</li><li class="example">
+<p class="sentence">김지연 씨가</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>김지연</span><span class="arrow">→</span><span>씨가</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 114쪽 (66나)</p>
+</li><li class="example">
+<p class="sentence">한국 미국 중국 일본의 학생들이 모였다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>한국</span><span class="arrow">→</span><span>미국</span></li><li class="edge"><code>flat</code><span>한국</span><span class="arrow">→</span><span>중국</span></li><li class="edge"><code>flat</code><span>한국</span><span class="arrow">→</span><span>일본의</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 114쪽 (67)</p>
+</li><li class="example">
+<p class="sentence">2018년 10월 9일</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>년</span><span class="arrow">→</span><span>월</span></li><li class="edge"><code>flat</code><span>년</span><span class="arrow">→</span><span>일</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 115쪽 (68), 각주 46</p><p class="metadata">관계 표기는 각주의 분절을 따른다.</p>
+</li><li class="example">
+<p class="sentence">오후 12시 1분</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>시</span><span class="arrow">→</span><span>분</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 115쪽 (69가), 각주 47</p><p class="metadata">관계 표기는 각주의 분절을 따른다.</p>
+</li><li class="example">
+<p class="sentence">1시간 반</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>시간</span><span class="arrow">→</span><span>반</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 115쪽 (69나)</p>
+</li></ul></div><div class="example-group"><h3>Noh 외 2018<small>GKT와 KTB의 보조 용언 관계 비교</small></h3><ul class="example-list"><li class="example">
+<p class="sentence">이야기를 하려 하지 않았다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>flat</code><span>하려</span><span class="arrow">→</span><span>하지</span></li><li class="edge"><code>flat</code><span>하려</span><span class="arrow">→</span><span>않았다</span></li></ul>
+<p class="metadata"><a href="https://aclanthology.org/W18-6013/">Noh 외 2018</a> · 110쪽 (6), GKT 인용</p><p class="metadata">보조 용언이 flat으로 제시된 기존 주석이다.</p>
+</li></ul></div>
+
+</section>
+</main>
+<footer><div class="reading"><a href="https://universaldependencies.org/u/dep/flat.html">보편 UD 원문</a> · <a href="index.html#sources">논문 출처</a></div></footer>
+</body>
+</html>

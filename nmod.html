@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nmod · 명사 수식어 | 다시 쓰는 한국어 UD 주석 지침</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="mast"><nav class="shell" aria-label="주 메뉴">
+<a class="brand" href="index.html">다시 쓰는 한국어 UD 주석 지침</a>
+<div class="nav-links"><a href="index.html#relations">관계 색인</a><a href="examples.txt">예문 텍스트</a><a href="index.html#sources">논문 출처</a></div>
+</nav></header>
+<main class="reading" id="main">
+
+<a class="breadcrumb" href="index.html#relations">← 의존 관계 색인</a>
+<h1 class="relation-title"><code>nmod</code><span>명사 수식어</span></h1>
+<p class="english" lang="en">nominal modifier</p>
+<p class="definition">명사류를 꾸미는 명사류를 피수식 명사류의 핵에 연결한다. 술어에 붙는 비핵심 명사류는 <a class="tag" href="obl.html"><code>obl</code></a>의 대상이다.</p>
+<div class="note"><h2>한국어 적용</h2><p>서샛별 외는 ‘프랑스의’, ‘세계적’을 ‘디자이너’에 연결한다(110쪽). 한지윤 외의 표 7은 술어 ‘은퇴하며’의 시간 표현에도 <code>nmod</code>를 기록한 기존 주석이다(187쪽).</p></div><p class="related">하위 표지 <a class="tag" href="nmod-poss.html"><code>nmod:poss</code></a> <a class="tag" href="nmod-tmod.html"><code>nmod:tmod</code></a></p>
+<section class="section" aria-labelledby="examples"><h2 id="examples">한국어 예문</h2>
+<div class="example-group"><h3>서샛별 외 2019<small>한국어 적용 제안 및 도입 예시</small></h3><ul class="example-list"><li class="example">
+<p class="sentence">두 사람은 약 두 시간 동안 이야기를 나누었다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>동안</span><span class="arrow">→</span><span>시간</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 108쪽 (43나)</p><p class="metadata">관계 표기의 ‘두’는 ‘두 시간’의 ‘두’이다.</p>
+</li><li class="example">
+<p class="sentence">프랑스의 세계적 디자이너</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>디자이너</span><span class="arrow">→</span><span>프랑스의</span></li><li class="edge"><code>nmod</code><span>디자이너</span><span class="arrow">→</span><span>세계적</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 110쪽 (49)</p>
+</li><li class="example">
+<p class="sentence">만 원의 행복을 누렸다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>행복을</span><span class="arrow">→</span><span>원의</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 111쪽 각주 39 (ㄴ)</p>
+</li><li class="example">
+<p class="sentence">한국대 국어 연구소</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>연구소</span><span class="arrow">→</span><span>한국대</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 114쪽 (65가)</p>
+</li><li class="example">
+<p class="sentence">오후 12시 1분</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>시</span><span class="arrow">→</span><span>오후</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.29403/LI.23.1.5">서샛별 외 2019</a> · 115쪽 (69가), 각주 47</p><p class="metadata">관계 표기는 각주의 분절을 따른다.</p>
+</li></ul></div><div class="example-group"><h3>이찬영 외 2019<small>논문 주석 예시 및 인용 말뭉치</small></h3><ul class="example-list"><li class="example">
+<p class="sentence">프랑스의 세계적인 의상 디자이너</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>디자이너</span><span class="arrow">→</span><span>프랑스의</span></li><li class="edge"><code>nmod</code><span>디자이너</span><span class="arrow">→</span><span>의상</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.20988/lfp.2019.47..141">이찬영 외 2019</a> · 150쪽 그림 1 및 본문</p><p class="metadata">그림에 있는 문장의 일부이며, 본문의 명사구 표기를 따랐다.</p>
+</li><li class="example">
+<p class="sentence">광복 이후의 역사 및 정치</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>정치</span><span class="arrow">→</span><span>역사</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.20988/lfp.2019.47..141">이찬영 외 2019</a> · 162쪽 그림 4, 문장 20514</p>
+</li></ul></div><div class="example-group"><h3>한지윤 외 2018<small>한일 비교와 기존 주석 예시</small></h3><ul class="example-list"><li class="example">
+<p class="sentence">1969년 경영에서 은퇴하며 전문경영인에게 유한양행의 경영권을 인계하였다.</p>
+<ul class="edges" aria-label="핵에서 의존소로"><li class="edge"><code>nmod</code><span>은퇴하며</span><span class="arrow">→</span><span>1969년</span></li></ul>
+<p class="metadata"><a href="https://doi.org/10.21049/ccs.2018.53..163">한지윤 외 2018</a> · 187쪽 표 7</p><p class="metadata">논문이 인용한 주석을 그대로 옮겼다. 표의 마지막 행은 표면형이 공란이고 XPOS가 SF여서 예문과 관계에 온점을 보충했다.</p>
+</li></ul></div>
+
+</section>
+</main>
+<footer><div class="reading"><a href="https://universaldependencies.org/u/dep/nmod.html">보편 UD 원문</a> · <a href="index.html#sources">논문 출처</a></div></footer>
+</body>
+</html>
